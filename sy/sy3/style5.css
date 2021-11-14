@@ -1,0 +1,45 @@
+.box{
+	border-width: 1px;
+	border-color: coral;
+	border-style: dashed;
+	background: #FFE4B5;
+	width: 300px;
+	padding: 12px;
+}
+.box *{
+	font-family: "华文中宋";
+	font-size:12px;
+	margin: 0;
+	padding: 0;
+}
+.box h2{
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: solid 1px #4169E1
+}
+.box.content{
+	padding: 10px;
+	overflow: hidden;
+}
+.box .username input{
+	width:180px;
+	height: 18px;
+	padding: 2px 0 2px 18px;
+	border: solid 1px #4169E1;
+	background: #FFF url("images/username.svg")no-repeat left center;
+	margin-bottom: 10px;
+}
+.box .button{
+	text-align: center;
+}
+.box .password input{
+	width:180px;
+	height: 18px;
+	padding: 2px 0 2px 18px;
+	border: solid 1px #4169E1;
+	background: #FFF url("images/password.svg")no-repeat left center;
+	margin-bottom: 10px;
+}
+
