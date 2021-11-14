@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+option.blue{
+ color:#ffffff;
+ background-color: #0000ff;
+}
+option.red{
+ color:#ffffff;
+ background-color: #ff0000;
+}
+option.green{
+ color:#ffffff;
+ background-color: #008000;
+}
+option.yellow{
+ color:#ffffff;
+ background-color: #ffff00;
+}
+option.black{
+ color:#ffffff;
+ background-color: #000000;
+}
+option.purple{
+ color:#ffffff;
+ background-color: #800080;
+}
