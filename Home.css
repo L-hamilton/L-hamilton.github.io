@@ -126,7 +126,8 @@
 }
 
 .u-section-2 .u-image-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/8ccf323f75775a7a6320ae79c112872a.jpeg");
+  background-image: url("images/8ccf323f75775a7a6320ae79c112872a.jpeg");
+  min-height: 900px;
   background-position: 50% 50%;
 }
 
