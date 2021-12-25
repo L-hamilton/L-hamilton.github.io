@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>开关灯</title>
+<script type="text/javascript">
+	 function onlight(){
+		 light = document.getElementById("light");
+	     light.src="开灯.png"
+	 }
+	 function offlight(){
+		 light = document.getElementById("light");
+	     light.src="关灯.png"
+	        }
+</script>
+</head>
+
+<body>
+	<input type="button" name="submit" value="开灯" onClick="return onClick=onlight()"/>
+	<input type="button" name="submit" value="关灯" onClick="return onClick=offlight()"/><br/><br/><br/>
+	<img id="light" onClick="offlight()" src="关灯.png">
+</body>
+</html>
